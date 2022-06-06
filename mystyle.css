@@ -1,0 +1,46 @@
+.ed {
+	color : #EA7500;
+	//change the color
+}
+
+.name::first-letter {
+	color : #EA7500;
+	font-size : 300%;
+	//first-letter become bigger and change color
+	
+}
+
+
+h1 {
+	font-family : "Copperplate", fantasy;
+	//change the font
+}
+
+a:link {
+	color : blue;
+	//the color before click
+}
+
+a:visited {
+	color : red;
+	//the color after click
+}
+
+a:hover {
+	color : yellow;
+	//the color while hover
+}
+
+a:active {
+	color : green;
+	//the color while active
+}
+
+body {
+	background-image : url("IMG_0906.jpeg");
+	background-repeat : no-repeat;
+	background-position : right top;
+	background-attachment : scroll;
+	//show the picture
+
+}
