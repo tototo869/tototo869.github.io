@@ -1,0 +1,43 @@
+//此區的字型變色
+.ed {
+	color : #EA7500;
+}
+
+
+//第一個letter變大且變色
+#name :: first-letter{
+	color : #EA7500;
+	font-size : 250%;
+	
+}
+
+//更改字型
+h1 {
+	font-family : "Copperplate", fantasy;
+}
+
+//連結點擊前後和滑鼠經過都會有不同的顏色
+a : link{
+	color : blue;
+}
+
+a : visited{
+	color : red;
+}
+
+a : hover{
+	color : yellow;
+}
+
+a : active{
+	color : green;
+}
+
+//頁面右上角會有圖示
+body {
+	background-image : url("tototo869.github.io/IMG_0906.jpeg");
+	background-repeat : no-repeat;
+	background-position : right top;
+	background-attachment : scroll;
+}
+
